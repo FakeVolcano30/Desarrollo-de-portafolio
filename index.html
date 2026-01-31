@@ -14,9 +14,9 @@
   </head>
   <body>
     <header>
-      <nav id="nav_fondo" class="navbar navbar-expand-lg">
+      <nav id="nav_fondo" class="navbar navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#educacion">Educación</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -31,32 +31,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#experiencia">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" href="#proyectos">Proyectos</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -75,13 +53,210 @@
       </nav>
     </header>
     <main>
-      <h1 class="text-success">Welcome to My Portfolio</h1>
-    </main>
+ <section id="sobre-mi" class="py-5 bg-light">
+  <div class="container">
+    
+    <div class="row align-items-center justify-content-center">
+      
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img 
+          src="./assets/img/foto_perfil.jpg" 
+          class="img-fluid rounded-circle shadow-lg border border-5 border-white"
+          style="width: 250px; height: 250px; object-fit: cover;" 
+          alt="Foto de perfil"
+        >
+      </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+      <div class="col-md-6">
+        <h2 class="display-5 fw-bold text-dark">Sobre mí</h2>
+        <div class="h-1 bg-primary mb-4" style="width: 60px; height: 5px;"></div>
+        
+        <p class="lead text-muted">
+          Estudiante de programación web Front-end y Back-end con Desafío Latam.
+        </p>
+        <p>
+          Quiero reforzar mis conocimientos y poder dedicarme al mundo de la programación web,
+          aprendiendo nuevas tecnologías y herramientas para poder desarrollar proyectos innovadores y creativos.
+        </p>
+        
+        <a href="https://linktr.ee/Jose_Estay" target="_blank" class="btn btn-primary mt-3 px-4 rounded-pill">Contáctame</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="educacion" class="py-5">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Formación Académica</h2>
+      <p class="text-muted">Mi trayectoria educativa y técnica</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        
+        <div class="list-group shadow-sm">
+          
+          <div class="list-group-item p-4 border-0 border-bottom">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-primary">INACAP Sede Iquique</h5>
+              <span class="badge bg-dark rounded-pill">Dic 2024</span>
+            </div>
+            <h6 class="mb-2 fw-bold">Técnicas de Muestreo Minero</h6>
+            <p class="mb-1 text-muted small">
+              Formación continua y educación para adultos. Curso técnico de duración de 90 horas.
+            </p>
+          </div>
+
+          <div class="list-group-item p-4 border-0 border-bottom">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-primary">Universidad Arturo Prat</h5>
+              <span class="badge bg-secondary rounded-pill">2022 - 2024</span>
+            </div>
+            <h6 class="mb-2 fw-bold">Técnico de Nivel Superior Traductor Bilingüe</h6>
+            <p class="mb-1 text-muted small">
+              Inglés – Español, Traducción e interpretación.
+            </p>
+          </div>
+
+          <div class="list-group-item p-4 border-0">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-primary">Liceo Bicentenario S.S Juan Pablo II</h5>
+              <span class="badge bg-secondary rounded-pill">2020 - 2021</span>
+            </div>
+            <h6 class="mb-2 fw-bold">Técnico Nivel Medio en Explotación Minera</h6>
+            <p class="mb-1 text-muted small">
+              Especialidad en explotación y procesos mineros.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section id="experiencia" class="py-5 bg-light">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Experiencia Laboral</h2>
+      <p class="text-muted">Mi historial de trabajo y responsabilidades</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        
+        <div class="list-group shadow-sm">
+          
+          <div class="list-group-item p-4 border-0 border-bottom">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-dark">Liemun (Applus+)</h5>
+              <span class="badge bg-primary rounded-pill">Jornada Completa</span>
+            </div>
+            <h6 class="mb-2 fw-bold text-muted">Ensayista (Ayudante)</h6>
+            <p class="mb-1 small">
+              Proyecto Minera Centinela (Nueva Centinela). Apoyo técnico en ensayos y control de calidad.
+            </p>
+          </div>
+
+          <div class="list-group-item p-4 border-0 border-bottom">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-dark">Industrias Alimenticias Acuenta S.A.S.</h5>
+              <span class="badge bg-secondary rounded-pill">Dic 2023 - Ene 2024</span>
+            </div>
+            <h6 class="mb-2 fw-bold text-muted">Reponedor Nocturno</h6>
+            <p class="mb-1 small">
+              Jornada parcial. Gestión de inventario, reposición de productos y organización de sala en turno de noche.
+            </p>
+          </div>
+
+          <div class="list-group-item p-4 border-0">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2">
+              <h5 class="mb-1 fw-bold text-dark">Papa John's</h5>
+              <span class="badge bg-secondary rounded-pill">May 2022 - Jun 2022</span>
+            </div>
+            <h6 class="mb-2 fw-bold text-muted">Pizzero</h6>
+            <p class="mb-1 small">
+              Jornada parcial. Elaboración de productos, mantenimiento de estándares de higiene y trabajo en equipo bajo presión.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos" class="py-5 bg-light">
+  <div class="container">
+    
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Mis Proyectos</h2>
+      <p class="text-muted">Desliza para ver mi trabajo</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        
+        <div id="miCarruselBonito" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel">
+          
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#miCarruselBonito" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#miCarruselBonito" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#miCarruselBonito" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#miCarruselBonito" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="./assets/img/desafio_1.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Proyecto 1">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <img src="./assets/img/desafio_2.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Proyecto 2">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/img/desafio_3.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Proyecto 3">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="./assets/img/desafio_4.jpg" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Proyecto 4">
+              <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              </div>
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#miCarruselBonito" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#miCarruselBonito" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer class="py-4 bg-dark text-white text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 José Estay. Todos los derechos reservados.</p>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
